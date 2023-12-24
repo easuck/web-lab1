@@ -19,7 +19,6 @@ header{
     background: rgba(69, 143, 246, 1); /*TODO перенести в переменную*/
 }
 .navigation_bar{
-
     margin-right: 192px;
 }
 li{

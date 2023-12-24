@@ -1,0 +1,30 @@
+.divider {
+    border-top: 2px solid #bbb;
+    border-radius: 5px;
+}
+.divider-container{
+    width: 56px;
+    margin-top: 26px;
+    margin-bottom: 33px;
+}
+.our-services-block{
+    margin-top: 192px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.our-services-label{
+    margin: 0 0;
+}
+.our-services-description{
+    margin: 0 0;
+}
+.cards-block{
+    margin-top: 80px;
+    margin-left: 240px;
+    margin-right: 240px;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-column-gap: 34px;
+    grid-row-gap: 37px;
+}

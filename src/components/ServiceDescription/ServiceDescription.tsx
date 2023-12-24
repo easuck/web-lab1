@@ -1,6 +1,6 @@
 import './ServiceDescription.styles.css'
 
-function ServiceDescription(){
+function ServiceDescription({image}){
     return(
         <div className="description">
             <div>
@@ -13,7 +13,7 @@ function ServiceDescription(){
                 </div>
             </div>
             <div>
-                <img src="header-picture.png" alt="header picture" width="693" height="598"/> /*TODO картинка не отображается + переместить в папку с ассетами*/
+                <img src={image} alt=""/>
             </div>
         </div>
     )

@@ -1,0 +1,21 @@
+.serviceName{
+    margin-top: 23px;
+}
+.serviceDescription{
+ margin: 0 0;
+}
+.image{
+    /*margin-top: 55px;*/
+    margin: 0 0;
+}
+.card{
+    box-shadow: 0 0 10px grey;
+    width: 350px;
+    height: 354px;
+
+}
+.inside-card-container{
+    margin-top: 55px;
+    margin-left: 40px;
+    margin-right: 50px;
+}
