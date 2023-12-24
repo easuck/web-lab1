@@ -1,0 +1,13 @@
+.description{
+    margin-left: 192px;
+    margin-right: 163px;
+    margin-top: 191px;
+    display: flex;
+    justify-content: space-between;
+}
+.description-element{
+    margin-top: 25px;
+}
+.picture{
+
+}

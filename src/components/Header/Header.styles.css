@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.logo{
+    align-items: center;
+    margin-left: 192px;
+    display: flex;
+}
+.circle{
+    width: 41px;
+    height: 41px;
+    border-radius: 25px;
+    align-items: center; /*TODO как его отцентрировать*/
+    background: rgba(69, 143, 246, 1); /*TODO перенести в переменную*/
+}
+.navigation_bar{
+
+    margin-right: 192px;
+}
+li{
+    display: inline;
+    margin: 0 20px;
+    height: max-content;
+}
