@@ -4,8 +4,8 @@ function ServiceCard({image, serviceName, serviceDescription}){
     return(
         <div className="card">
                 <img className="image" src={image} alt=""/>
-                <p className="serviceName">{serviceName}</p>
-                <p className="serviceDescription">{serviceDescription}</p>
+                <div className="serviceName">{serviceName}</div>
+                <div className="serviceDescription">{serviceDescription}</div>
         </div>
     )
 }

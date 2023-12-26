@@ -1,25 +1,37 @@
 .divider {
-    border-top: 2px solid #bbb;
+    border-top: 2px solid #000;
     border-radius: 5px;
 }
-.divider-container{
+.dividerContainer{
     width: 56px;
     margin-top: 26px;
     margin-bottom: 33px;
 }
-.our-services-block{
+.ourServicesBlock{
     margin-top: 192px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.our-services-label{
+.ourServicesLabel{
     margin: 0 0;
+    color: #000;
+    font-family: Mulish, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
 }
-.our-services-description{
+.ourServicesDescription{
     margin: 0 0;
+    color: #7D7987;
+    text-align: center;
+    font-family: Mulish,sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
 }
-.cards-block{
+.cardsBlock{
     margin-top: 80px;
     margin-left: 240px;
     margin-right: 240px;
@@ -28,11 +40,16 @@
     grid-column-gap: 34px;
     grid-row-gap: 37px;
 }
-.button{
+.ourServicesButton{
     width: 200px;
     height: 56px;
     margin-top: 72px;
     border-radius: 55px;
     border: 1.4px solid #458FF6;
     background: white;
+    color: #458FF6;
+    font-family: Mulish, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
 }
