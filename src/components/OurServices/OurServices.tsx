@@ -8,8 +8,10 @@ function OurServices(){
             <div className="divider-container">
                 <hr className="divider"/>
             </div>
-            <p className="our-services-description">We provide to you the best choices for you. Adjust it to your health needs and make sure your undergo treatment<br/>
-                with our highly qualified doctors you can consult with us which type of service is suitable for your health
+            <p className="our-services-description">We provide to you the best choices for you. Adjust it to your health
+                needs and make sure your undergo treatment<br/>
+                with our highly qualified doctors you can consult with us which type of service is suitable for your
+                health
             </p>
             <div className="cards-block">
                 <ServiceCard
@@ -43,6 +45,7 @@ function OurServices(){
                     serviceDescription="Choose your doctor from thousands of specialist, general, and trusted hospitals"
                 />
             </div>
+            <button className="button">Learn more</button>
         </div>
     )
 }

@@ -8,9 +8,7 @@ function ServiceDescription({image}){
                 <div className="description-element">Our service provides progressive, and<br/>
                     affordable healthcare, accessible on mobile<br/>
                     and online for everyone</div>
-                <div className="description-element">
-                    <button>Consult today</button>
-                </div>
+                <button className="description-element">Consult today</button>
             </div>
             <div>
                 <img src={image} alt=""/>
