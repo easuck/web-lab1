@@ -1,23 +1,22 @@
 import './Header.styles.css'
 function Header(){
     return(
-    <header>
-        <div className="logo">
-            <div className="circle">
-                <div>T</div>
+        <div className="header">
+            <div className="logo">
+                <div className="logoCircle">
+                    <div className="logoT">T</div>
+                </div>
+                <div className="logoText">HealthCare</div>
             </div>
-            <p>HealthCare</p>
+            <div className="navigationBar">
+                <div className="navigationElement">Home</div>
+                <div className="navigationElement">Find a doctor</div>
+                <div className="navigationElement">Apps</div>
+                <div className="navigationElement"> Testimonials</div>
+                <div className="navigationElement">About us</div>
+            </div>
+
         </div>
-        <nav className="navigation_bar">
-            <ul>
-                <li>Home</li>
-                <li>Find a doctor</li>
-                <li>Apps</li>
-                <li>Testimonials</li>
-                <li>About us</li>
-            </ul>
-        </nav>
-    </header>
     )
 }
 

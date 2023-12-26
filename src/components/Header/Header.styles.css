@@ -1,28 +1,70 @@
 body{
     margin: 0;
 }
-header{
+.header{
     display: flex;
     justify-content: space-between;
-    margin-top: 60px;
+    margin-left: 180px;
+    margin-top: 20px;
 }
 .logo{
-    align-items: center;
-    margin-left: 192px;
     display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logoCircle{
+    display: flex;
+    flex-direction: row;
+    margin-right: 12px;
+    justify-content: center;
+    align-items: center;
+    background: #458FF6;
+    height: 41px;
+    width: 41px;
+    border-radius: 50%;
+}
+.logoT{
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: Mulish, sans-serif;
+}
+.logoText{
+    color: #233348;
+    font-family: Mulish, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
 }
 .circle{
     width: 41px;
     height: 41px;
     border-radius: 25px;
-    align-items: center; /*TODO как его отцентрировать*/
-    background: rgba(69, 143, 246, 1); /*TODO перенести в переменную*/
+    text-align: center;
+    vertical-align: middle;
+    background: #458FF6;
+    color: #FFF;
+    font-family: Mulish, sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
 }
-.navigation_bar{
+.navigationBar{
     margin-right: 192px;
+    display: flex;
+    align-items: center;
 }
-li{
-    display: inline;
+.navigationElement{
     margin: 0 20px;
-    height: max-content;
+    color: #7D7987;
+    font-family: Mulish, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.navigationElement:hover{
+    font-weight: 700;
+    color: #1F1534;
+    cursor: pointer;
 }

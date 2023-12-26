@@ -1,10 +1,12 @@
 import { IPreview } from "../types/IPreview.ts";
 
-export const descriptions: IPreview[] = [
+export const previews: IPreview[] = [
     {
-        image: "",
+        image: "src/assets/header-picture.png",
         textBold: "Virtual healthcare for you",
-        textLight: "Our service provides progressive, and affordable healthcare, accessible on mobile and online for everyone",
+        textLight: "Our service provides progressive, and\n" +
+            "affordable healthcare, accessible on mobile\n" +
+            "and online for everyone",
         textButton: "Consult today"
     },
 

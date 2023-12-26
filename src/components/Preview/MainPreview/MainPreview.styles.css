@@ -1,0 +1,40 @@
+.preview{
+    margin-left: 192px;
+    margin-right: 163px;
+    margin-top: 84px;
+    display: flex;
+    justify-content: space-between;
+}
+.textLight{
+    margin-top: 25px;
+    width: 427px;
+    height: 96px;
+    color: #7D7987;
+    font-family: Mulish, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+}
+.textBold{
+    margin-top: 106px;
+    width: 427px;
+    height: 112px;
+    color: #000;
+    font-family: Mulish, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+.button-main{
+    margin-top: 25px;
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    background: #458FF6;
+    color: #FFF;
+    font-family: Mulish, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
