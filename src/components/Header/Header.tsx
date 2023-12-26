@@ -1,13 +1,11 @@
 import './Header.styles.css'
+import Logo from "../Logo/Logo.tsx";
 function Header(){
     return(
         <div className="header">
-            <div className="logo">
-                <div className="logoCircle">
-                    <div className="logoT">T</div>
-                </div>
-                <div className="logoText">HealthCare</div>
-            </div>
+            <Logo circleColor="logoCircle"
+                  TColor="logoT"
+                  TextColor="logoText"/>
             <div className="navigationBar">
                 <div className="navigationElement">Home</div>
                 <div className="navigationElement">Find a doctor</div>
