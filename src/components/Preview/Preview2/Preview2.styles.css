@@ -1,39 +1,42 @@
-.preview{
-    margin-left: 192px;
-    margin-right: 163px;
-    margin-top: 84px;
+.preview2{
+    margin-left: 280px;
+    margin-right: 164px;
+    margin-top: 229px;
     display: flex;
     justify-content: space-between;
 }
-.textLight{
+.textLight-preview2{
     margin-top: 25px;
-    width: 427px;
-    height: 96px;
+    width: 420px;
+    height: 120px;
     color: #7D7987;
     font-family: Mulish, sans-serif;
-    font-size: 21px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 300;
     line-height: 32px;
 }
-.textBold{
-    margin-top: 106px;
-    width: 427px;
-    height: 112px;
+.textBold-preview2{
+    margin-top: 57px;
+    width: 254px;
+    height: 96px;
     color: #000;
     font-family: Mulish, sans-serif;
-    font-size: 48px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: 56px;
 }
-.button-main{
-    margin-top: 25px;
-    background: #458FF6;;
+.button-preview2{
+    margin-top: 40px;
     border: 1.4px solid #458FF6;
-    color: #FFF;
+    background: white;
+    color: #458FF6;
     font-family: Mulish, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
+}
+.arrow{
+    margin-left: 15px;
 }

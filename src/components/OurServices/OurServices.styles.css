@@ -1,12 +1,3 @@
-.divider {
-    border-top: 2px solid #000;
-    border-radius: 5px;
-}
-.dividerContainer{
-    width: 56px;
-    margin-top: 26px;
-    margin-bottom: 33px;
-}
 .ourServicesBlock{
     margin-top: 192px;
     display: flex;
@@ -40,11 +31,8 @@
     grid-column-gap: 34px;
     grid-row-gap: 37px;
 }
-.ourServicesButton{
-    width: 200px;
-    height: 56px;
+.button-ourServices{
     margin-top: 72px;
-    border-radius: 55px;
     border: 1.4px solid #458FF6;
     background: white;
     color: #458FF6;

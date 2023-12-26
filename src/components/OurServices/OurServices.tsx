@@ -45,7 +45,7 @@ function OurServices(){
                     serviceDescription="Track and save your medical history and health data "
                 />
             </div>
-            <button className="ourServicesButton">Learn more</button>
+            <button className="button button-ourServices">Learn more</button>
         </div>
     )
 }
