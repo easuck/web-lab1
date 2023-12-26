@@ -7,6 +7,7 @@ import MainPreview from "./components/Preview/MainPreview/MainPreview.tsx";
 import OurServices from "./components/OurServices/OurServices.tsx";
 import Preview1 from "./components/Preview/Preview1/Preview1.tsx";
 import Preview2 from "./components/Preview/Preview2/Preview2.tsx";
+import Articles from "./components/Articles/Articles.tsx";
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -18,5 +19,6 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
                 textLight={previews[1].textLight} textButton={previews[1].textButton}/>
       <Preview2 image={previews[2].image} textBold={previews[2].textBold}
                 textLight={previews[2].textLight} textButton={previews[2].textButton}/>
+        <Articles/>
   </React.StrictMode>
 )

@@ -9,14 +9,12 @@ export const previews: IPreview[] = [
             "and online for everyone",
         textButton: "Consult today"
     },
-
     {
         image: "src/assets/preview1.png",
         textBold: "Leading healthcare providers",
         textLight: "We provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride in the solutions we deliver",
         textButton: "Learn more"
     },
-
     {
         image: "src/assets/preview2.png",
         textBold: "Download our mobile apps",
