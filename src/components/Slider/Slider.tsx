@@ -3,10 +3,47 @@ import {useState} from "react";
 
 function Slider(){
     let image: string = "src/assets/sliderPhoto.png";
-    /*let arrowLeft: string = "src/assets/arrow-left";*/
     let arrowRight: string = "src/assets/arrow-horizontal.png";
+    const selectDot = () => {
+        switch(page){
+            case 1: return (
+                <div className="dotsContainer">
+                    <div className="dot dot-current"></div>
+                    <div className="dot"></div>
+                    <div className="dot"></div>
+                    <div className="dot"></div>
+                </div>
+            );
+            case 2: return (
+                <div className="dotsContainer">
+                    <div className="dot"></div>
+                    <div className="dot dot-current"></div>
+                    <div className="dot"></div>
+                    <div className="dot"></div>
+                </div>
+            );
+            case 3: return (
+                <div className="dotsContainer">
+                    <div className="dot"></div>
+                    <div className="dot"></div>
+                    <div className="dot dot-current"></div>
+                    <div className="dot"></div>
+                </div>
+            );
+            case 4: return (
+                <div className="dotsContainer">
+                    <div className="dot"></div>
+                    <div className="dot"></div>
+                    <div className="dot"></div>
+                    <div className="dot dot-current"></div>
+                </div>
+            );
+        }
+    };
+
     const [page, setPage] = useState(1);
-    return(
+
+    return (
         <>
             <div className="sliderContainer">
                 <div className="slider">
@@ -30,14 +67,22 @@ function Slider(){
                     </div>
                 </div>
                 <div className="toggleBlock">
-                    <img className="arrowLeft" src={arrowRight} alt=""/>
-                    <div className="dotsContainer">
-                        <div className="dot"></div>
-                        <div className="dot"></div>
-                        <div className="dot"></div>
-                        <div className="dot"></div>
-                    </div>
-                    <img className="arrowRight" src={arrowRight} alt=""/>
+                    <img className="arrowLeft" src={arrowRight} alt=""
+                    onClick={() => {
+                        if (page != 1){
+                            setPage(page - 1)}
+                        }
+                    }
+                    />
+                    {selectDot()}
+                    <img className="arrowRight" src={arrowRight} alt=""
+                         onClick={() => {
+                             if (page != 4) {
+                                 setPage(page + 1)
+                             }
+                         }
+                         }
+                    />
                 </div>
             </div>
         </>

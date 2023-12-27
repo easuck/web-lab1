@@ -94,11 +94,15 @@
     height: 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .dot{
     width: 10px;
     height: 10px;
     border-radius: 50%;
+    background: lightblue;
+}
+.dot-current{
     background: #5B9BF3;
 }
 .divider-white{
