@@ -1,6 +1,8 @@
 import './Logo.styles.css'
+import {FC} from "react";
 
-function Logo({circleColor, TColor, TextColor}){
+const Logo : FC<{circleColor: string, TColor: string, TextColor: string}> =
+    ({circleColor, TColor, TextColor}) => {
     return (
         <div className="logo">
             <div className={circleColor}>

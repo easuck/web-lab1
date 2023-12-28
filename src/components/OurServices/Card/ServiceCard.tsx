@@ -1,6 +1,8 @@
 import './Card.styles.css'
+import {FC} from "react";
 
-function ServiceCard({image, serviceName, serviceDescription}){
+const ServiceCard : FC<{image: string, serviceName: string, serviceDescription: string}> =
+    ({image, serviceName, serviceDescription}) => {
     return(
         <div className="card">
                 <img className="image" src={image} alt=""/>

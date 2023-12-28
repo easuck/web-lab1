@@ -1,6 +1,8 @@
 import './Article.styles.css'
+import {FC} from "react";
 
-function Article({image, textBold, textLight}){
+const Article : FC<{image: string, textBold: string, textLight: string}> =
+    ({image, textBold, textLight}) => {
     let arrow: string = "src/assets/arrow-horizontal.png"
     return(
         <div className="articleBlock">

@@ -1,6 +1,8 @@
 import './MainPreview.styles.css'
+import {FC} from "react";
 
-function MainPreview({image, textBold, textLight, textButton}){
+const MainPreview : FC<{image: string, textBold: string, textLight: string, textButton: string}> =
+    ({image, textBold, textLight, textButton,}) => {
     return(
         <div className="preview">
             <div>

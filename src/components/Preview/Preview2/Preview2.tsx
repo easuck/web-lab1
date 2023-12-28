@@ -1,6 +1,8 @@
 import './Preview2.styles.css'
+import {FC} from "react";
 
-function Preview2({image, textBold, textLight, textButton}){
+const Preview2 : FC<{image: string, textBold: string, textLight: string, textButton: string}> =
+    ({image, textBold, textLight, textButton,}) => {
     let arrow: string = "src/assets/arrow.png"
     return(
         <div className="preview2">

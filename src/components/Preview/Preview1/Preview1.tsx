@@ -1,6 +1,8 @@
 import './Preview1.styles.css'
+import {FC} from "react";
 
-function Preview1({image, textBold, textLight, textButton}){
+const Preview1 : FC<{image: string, textBold: string, textLight: string, textButton: string}> =
+    ({image, textBold, textLight, textButton,}) => {
     return(
         <div className="preview1">
             <img src={image} alt=""/>
