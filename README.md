@@ -1,30 +1,14 @@
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# Web Lab1: React + TypeScript
+### Версия npm 10.2.5; версия node 20.10.0
+### Заранее прошу прощения, если жестоко нарушил какие-то конвенции веб-разработчиков по именованию файлов, компонентов и стилей 🥺
+### По структуре проекта делал так: на каждый компонент отдельная папка, в которой лежит сам компонент и файл со стилями для него.
+### Пробовал также использовать интерфейсы и выносил перечисление одинаковых компонентов в отдельный файл в виде массива.
+### Также пытался сделать верстку адаптивной, применял flexbox.
+### Сделал слайдер и кнопку, которая все статьи раскрывает :smirk_cat:
+### Скрины работы:
+![](src/screenshots/web1.png)
+![](src/screenshots/web2.png)
+![](src/screenshots/web3.png)
+![](src/screenshots/web4.png)
+![](src/screenshots/web5.png)
+![](src/screenshots/web6.png)

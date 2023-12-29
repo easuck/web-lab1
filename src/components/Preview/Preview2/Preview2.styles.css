@@ -1,0 +1,42 @@
+.preview2{
+    margin-left: 280px;
+    margin-right: 164px;
+    margin-top: 229px;
+    display: flex;
+    justify-content: space-between;
+}
+.textLight-preview2{
+    margin-top: 25px;
+    width: 420px;
+    height: 120px;
+    color: #7D7987;
+    font-family: Mulish, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+}
+.textBold-preview2{
+    margin-top: 57px;
+    width: 254px;
+    height: 96px;
+    color: #000;
+    font-family: Mulish, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+.button-preview2{
+    margin-top: 40px;
+    border: 1.4px solid #458FF6;
+    background: white;
+    color: #458FF6;
+    font-family: Mulish, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+.arrow{
+    margin-left: 15px;
+}

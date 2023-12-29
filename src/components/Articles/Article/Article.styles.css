@@ -1,0 +1,45 @@
+.articleBlock{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 512px;
+    margin-left: 34px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 10px 40px 50px 0 rgba(229, 233, 246, 0.40);
+}
+.articleImage{
+    width: 350px;
+    height: 246px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.articleName{
+    margin: 21px 51px 0 33px;
+    color: #000;
+    font-family: Mulish, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+.articleDescription{
+    margin: 12px 51px 0 33px;
+    color: #7D7987;
+    font-family: Mulish, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+.readMoreLabel{
+    margin: 25px 51px 0 33px;
+    color: #4089ED;
+    font-family: Mulish, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+}
+.arrow-horizontal{
+    margin-left: 10px;
+}
