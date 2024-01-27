@@ -1,0 +1,39 @@
+.preview1{
+    margin-left: 135px;
+    margin-right: 223px;
+    margin-top: 221px;
+    display: flex;
+    justify-content: space-between;
+}
+.textLight-preview1{
+    margin-top: 25px;
+    width: 450px;
+    height: 90px;
+    color: #7D7987;
+    font-family: Mulish, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+}
+.textBold-preview1{
+    margin-top: 57px;
+    width: 481px;
+    height: 112px;
+    color: #000;
+    font-family: Mulish, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 155.556% */
+}
+.button-preview1{
+    margin-top: 70px;
+    border: 1.4px solid #458FF6;
+    background: white;
+    color: #458FF6;
+    font-family: Mulish, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}

@@ -1,0 +1,43 @@
+.ourServicesBlock{
+    margin-top: 192px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ourServicesLabel{
+    margin: 0 0;
+    color: #000;
+    font-family: Mulish, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+}
+.ourServicesDescription{
+    margin: 0 0;
+    color: #7D7987;
+    text-align: center;
+    font-family: Mulish,sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+.cardsBlock{
+    margin-top: 80px;
+    margin-left: 240px;
+    margin-right: 240px;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-column-gap: 34px;
+    grid-row-gap: 37px;
+}
+.button-ourServices{
+    margin-top: 72px;
+    border: 1.4px solid #458FF6;
+    background: white;
+    color: #458FF6;
+    font-family: Mulish, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}

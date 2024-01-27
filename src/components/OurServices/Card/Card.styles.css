@@ -1,0 +1,26 @@
+.serviceName{
+    margin-top: 23px;
+    color: #000;
+    font-family: Mulish, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+.serviceDescription{
+    margin-top: 15px;
+    color: #7D7987;
+    font-family: Mulish, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+.card{
+    padding: 40px 50px;
+    box-sizing: border-box;
+    width: 350px;
+    height: 354px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 10px 40px 50px 0 rgba(229, 233, 246, 0.40);
+}

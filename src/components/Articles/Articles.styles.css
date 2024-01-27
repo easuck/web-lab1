@@ -1,0 +1,29 @@
+.articlesBlock{
+    margin-top: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.articlesLabel{
+    color: #000;
+    font-family: Mulish, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+.articles{
+    display: flex;
+    margin-top: 42px;
+}
+.button-articles{
+    margin-top: 72px;
+    color: #458FF6;
+    border: 1.4px solid #458FF6;
+    background: white;
+    font-family: Mulish, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}

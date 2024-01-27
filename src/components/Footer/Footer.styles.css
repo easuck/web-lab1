@@ -1,0 +1,33 @@
+.footer{
+    margin-top: 202px;
+    height: 432px;
+    background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    padding: 124px 190px 113px 190px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.footerColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.columnElement{
+    color: #FFF;
+    font-family: Mulish, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38px;
+}
+.columnFirstElement{
+    color: #FFF;
+    font-family: Mulish, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+.descriptionElement{
+    line-height: 28px;
+}
